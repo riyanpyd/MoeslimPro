@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.riyanpriyadi.moeslimpro">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/m"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/m"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".DoaHarian.DoaUntukOrangtua" />
+        <activity android:name=".DoaHarian.DoaSebelumBacaAlquran" />
+        <activity android:name=".DoaHarian.DoaDuniaAkhirat" />
+        <activity android:name=".DoaHarian.DoaCitaCita" />
+        <activity android:name=".DoaHarian.DoaBermimpiBuruk" />
+        <activity android:name=".DoaHarian.DoaBepergian" />
+        <activity android:name=".DoaHarian.DoaBercermin" />
+        <activity android:name=".DoaHarian.DoaActivity" />
+        <activity android:name=".ProdukHalal.ProdukHalalActivity" />
+        <activity android:name=".JadwalSholat.JadwalSholatActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

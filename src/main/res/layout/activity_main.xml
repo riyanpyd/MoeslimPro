@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/img_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="174dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:src="@drawable/fmainmenu" />
+
+    <Button
+        android:id="@+id/btn_jadwalSholat"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_judul"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="-13dp"
+        android:layout_marginRight="-1dp"
+        android:text="Jadwal Sholat"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_produkHalal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_jadwalSholat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:text="Produk Halal"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_doaHarian"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_produkHalal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-1dp"
+        android:text="Doa Harian"
+        android:textStyle="bold" />
+
+</RelativeLayout>

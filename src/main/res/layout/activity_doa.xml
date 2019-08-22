@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    tools:context=".DoaHarian.DoaActivity">
+
+
+    <ImageView
+        android:id="@+id/img_doaHarian"
+        android:layout_width="wrap_content"
+        android:layout_height="181dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="-24dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:src="@drawable/fdoaharian" />
+
+    <Button
+        android:id="@+id/doa_bercermin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_doaHarian"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-33dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Doa Bercermin" />
+
+    <Button
+        android:id="@+id/doa_mimpi_buruk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doa_bercermin"
+        android:text="Doa Bermimpi Buruk" />
+
+    <Button
+        android:id="@+id/doa_bepergian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doa_mimpi_buruk"
+        android:text="Doa Hendak Bepergian" />
+
+    <Button
+        android:id="@+id/doa_baca_alquran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doa_bepergian"
+        android:text="Doa Sebelum Membaca Al-Quran" />
+
+    <Button
+        android:id="@+id/doa_orangtua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doa_baca_alquran"
+        android:text="Doa Untuk Kedua Orang Tua" />
+
+    <Button
+        android:id="@+id/doa_citacita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doa_orangtua"
+        android:text="Doa Agar Cita-Cita Dikabulkan" />
+
+    <Button
+        android:id="@+id/doa_dunia_akhirat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doa_citacita"
+        android:text="Doa Keselamatan Dunia Akhirat" />
+
+    <ImageView
+        android:id="@+id/img_boy"
+        android:layout_width="348dp"
+        android:layout_height="156dp"
+        android:layout_below="@+id/doa_dunia_akhirat"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:src="@drawable/boy" />
+
+
+</RelativeLayout>
